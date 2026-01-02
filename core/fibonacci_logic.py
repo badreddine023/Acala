@@ -4,6 +4,7 @@ Mathematical utilities for the Phi-Chain consensus, including Fibonacci sequence
 """
 import math
 from decimal import Decimal, getcontext
+from typing import List
 
 # Set precision for Decimal operations
 getcontext().prec = 50
